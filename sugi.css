@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    background-color: #4CAF50;
+    color: rgb(12, 11, 11);
+    padding: 10px 0;
+    margin-bottom: 20px;
+
+}
+ul,li,h1{
+      display:inline;
+      
+
+}
+ul{
+    margin-left: 70%;
+}
+h1{
+    margin-left: 4%;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+form{
+    width: 50%;
+}
+
+
+
+input{
+    width: 50%;
+    height: 25px;
+    margin-bottom: 1%;
+    padding: 8px;
+    
+}
+.searchbar{
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+
+
+}
+
+.slider {
+    position: relative;
+    width: 100%; /* Adjusted to 100% width */
+    height: 770px; /* Set to 720px as per your request */
+    max-width: 100%; /* Remove max-width restriction */
+    margin-bottom: 30px;
+    overflow: hidden;
+    margin-top:20px;
+
+    
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 40%; /* Height to match slider height */
+}
+
+img {
+    display: block;
+    width: 100%; /* Ensures image covers full width of the slide */
+    height: 100%; /* Ensures the image height is 720px */
+}
+
+/* General body styling */
+body {
+    background-image:url("/home/sugesh/Downloads/aa095f9fc23a93f2a124772b08691fb0.jpg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for all products */
+.contain {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the boxes wrap to the next row if needed */
+    justify-content: space-around; /* Space out items evenly */
+    gap: 20px; /* Space between the product boxes */
+    padding: 20px;
+}
+
+/* Styling for each product box */
+.box1, .box2, .box3, .box4 {
+    border: solid black 2px;
+    width: 250px; /* Make boxes the same width */
+    padding: 20px;
+    text-align: center; /* Center content inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: white; /* Optional: Adds a background color */
+   
+}
+
+/* Hover effect for product boxes */
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+}
+
+/* Image styling */
+.box1 img, .box2 img, .box3 img, .box4 img {
+    height: 220px;
+    width: 220px;
+    object-fit: cover; /* Ensures image fills the box without distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Button styling */
+input[type="button"] {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: rgb(247, 243, 243);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+input[type="button"]:hover {
+    background-color: #33f360;
+}
+.id{
+ padding: 20px;
+ width: 100%;
+ height: 420px;
+}
+
+
+
+.ipl{
+ background-color: rgb(11, 12, 11);
+ margin-top: 30px;
+ padding: 30px;
+ width: 1840px;
+color:white;
+text-align: center;
+}
+
+.mm{
+    color: rgb(207, 31, 31);
+    font-size:larger;
+   
+}
+
+.csk{
+      text-align: 10px;
+
+
+}
+.add-button {
+    background-color: rgb(15, 49, 241);
+    color: black;
+    border-radius: 100%;
+    padding-left: 2px;
+    font-size: 190%;
+}
+
+.popup-overlay {
+    background-color: #fff;
+    opacity: 0.8; /* Removed px, corrected opacity */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none; /* Hide by default */
+}
+
+.popup-box {
+    background-image: url("/home/sugesh/Pictures/360_F_1276925322_dMlN46PquN34AFvPBZzgR9xreD6j48fJ.jpg");
+    width: 30%;
+    height: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    z-index: 2;
+    display: none; /* Hide by default */
+}
+
+.popup-box input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popup-box textarea {
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popup-box input::placeholder {
+    color: grey;
+}
+
+.popup-box button {
+    background-color: rgb(126, 120, 120);
+    color: white;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aaa{
+    color: black;
+    margin: 10px;
+}
+.aa{
+    margin: 15px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+
+   
+    object-fit: cover; /* Ensures image fills the box without distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap; /* Ensure the boxes wrap to the next row if needed */
+    justify-content: space-around; /* Space out items evenly */
+    gap: 20px; /* Space between the product boxes */
+    padding: 20px;
+}
+#container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: solid;
+    margin-bottom: 15px;
+}
+#container div{
+    height: 420px;
+    width: 420px;
+    margin: 70px;
+
+}
+button{
+ 
+    background:skyblue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+footer{
+
+    margin-bottom: 0%;
+    width: 100%;
+ }  
+    
+

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Mart</title>
+</head>
+<style>
+
+*{
+
+ margin:0px;
+ padding:0px;
+}
+body {
+    background-image:url("/home/sugesh/Downloads/morning-light-shines-on-lush-green-meadow-surrounded-by-vibrant-trees-photo.jpeg" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+footer{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+ }  
+    
+
+nav{
+   
+    background-color: #4CAF50;
+    color: rgb(15, 15, 15);
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: rgb(10, 10, 10);
+    padding: 10px 0;
+   }
+ul,li,h1{
+      display:inline;
+      
+
+}
+ul{
+    margin-left: 70%;
+}
+h1{
+    margin-left: 4%;
+}
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.slider {
+    width: 100%; /* Make the slider container take full width */
+    overflow: hidden; /* Hide the images that are out of the container */
+    position: relative;
+}
+
+.slides {
+    display: flex; /* Align the slides in a horizontal row */
+    transition: transform 1s ease; /* Smooth transition for sliding */
+}
+
+.slide {
+    min-width: 100%; /* Each slide takes full width */
+    flex: 0 0 auto; /* Prevent slides from shrinking or expanding */
+}
+
+img {
+    width: 100%; /* Ensure the image covers the full width of the slide */
+    height: 720px; /* Keep aspect ratio of images */
+}
+.slides {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+.mark{
+    background-color:skyblue;
+    color: rgb(13, 13, 14);
+}
+.see{
+margin-bottom: 5px;
+margin-top: 10px;
+}
+/* Container for all products */
+.contain {
+    display: flex;
+    flex-wrap: wrap; /* Ensure the boxes wrap to the next row if needed */
+    justify-content: space-around; /* Space out items evenly */
+    gap: 20px; /* Space between the product boxes */
+    padding: 20px;
+}
+
+/* Styling for each product box */
+.box1, .box2, .box3, .box4 {
+    border: solid black 2px;
+    width: 250px; /* Make boxes the same width */
+    padding: 20px;
+    text-align: center; /* Center content inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: white; /* Optional: Adds a background color */
+   
+}
+
+/* Hover effect for product boxes */
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+}
+/* Image styling */
+.box1 img, .box2 img, .box3 img, .box4 img {
+    height: 220px;
+    width: 220px;
+    object-fit: cover; /* Ensures image fills the box without distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+.hello{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ 
+}
+.ipl{
+ background-color:black;
+ margin-top: 30px;
+ padding: 30px;
+ width: 100%;
+color:white;
+text-align: center;}
+
+.mm{
+    color:red;
+    font-size:larger;
+   
+}
+
+.csk{
+      text-align: 10px;
+
+
+}
+button{
+    background:skyblue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+input[type="button"] {
+    padding: 8px 15px;
+    cursor:pointer;
+    background-color:green;
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+  
+</style>
+
+<body>
+    <div class="header">
+        <nav>
+           <h1>Organic Mart.</h1>
+        
+           <ul>
+            <li onclick="window.Location.href='home.html'">    <a href="home.html">Home |</a></li>
+            <li onclick="window.Location.href='product.html'">  <a href="product.html">product |</a> </li>
+            <li onclick="window.Location.href='contact.html'">   <a href="contact.html">Contact |</a></li>
+            <li onclick="window.Location.href='about.html'">    <a href="about.html">About |</a></li>  
+           
+           
+               
+           </ul>
+        </nav>
+       </div>
+<div class="mark">
+    <marquee><h2>Free Delivery ~For All Product ~ ~ ~ ~ ~ ~ ~   Buy 2 Products / Get 1 Product Free   // </h2></marquee>
+</div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Yellow Modern Fruit Store Promotion Banner.jpg" height="720px" width="100%" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Green Modern Fruit Shop Profile Presentation 10 Page/9.png" height="720px" width="100%" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Green Modern Fruit Shop Profile Presentation 10 Page/4.png" height="720px" width="100%" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Green Modern Fruit Shop Profile Presentation 10 Page/5.png" height="720px" width="100%" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Green Modern Fruit Shop Profile Presentation 10 Page/6.png" height="720px" width="100%" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="/home/sugesh/Downloads/Green Modern Fruit Shop Profile Presentation 10 Page/8.png" height="720px" width="100%" alt="Image 3">
+            </div>
+          
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <center>
+        <div class="see">
+            <h1>Fruits Section </h1>
+        </div>
+
+        <div class="contain">
+            <!-- Box 3 -->
+            <div class="box3">
+                <img src="/home/sugesh/Downloads/download (1).jpeg" height="220px" width="320px" alt="Potato">
+                <h3>Potato 1kg</h3>
+                <p>Rs: 84.00</p>
+                <input type="button" value="Add to cart">
+            </div>
+    
+            <!-- Box 4 -->
+            <div class="box4">
+                <img src="/home/sugesh/Downloads/download (2).jpeg" height="220px" width="220px" alt="Beans">
+                <h3>Fresh Beans 500g</h3>
+                <p>Rs: 70.00</p>
+                <input type="button" value="Add to cart">
+            </div>
+            <!-- Box 4 -->
+            <div class="box4">
+                <img src="/home/sugesh/Pictures/download (1).jpeg" height="220px" width="220px" alt="Beans">
+                <h3>Fresh Carrot 1Kg</h3>
+                <p>Rs: 79.00</p>
+                <input type="button" value="Add to cart">
+            </div>
+           <!-- Box 4 -->
+            <div class="box1">
+                <img src="/home/sugesh/Downloads/images (8).jpeg" height="220px" width="220px" alt="Onion">
+                <h3>Onion 1kg</h3>
+                <p>Rs: 98.00</p>
+                <input type="button" value="Add to cart">
+            </div>
+            
+        
+               
+        </div>
+
+    <div class="hello">
+        <button onclick="togglecontent()"> More Result </button>
+   </div>  </center>
+
+
+
+
+
+    <center>
+    <h1>Vegetables Section</h1>
+    <div class="contain">
+        <div class="box1">
+            <img src="/home/sugesh/Downloads/download (2).jpeg" height="220px" width="200px" alt="">
+           <h3>Fresh Beans 500g</h3>
+            <p>Rs: 70.00</p>
+            <input type="button" value="Add to cart">
+        </div>  
+        <div class="box1">
+            <img src="/home/sugesh/Downloads/download.jpeg" height="220px" width="220px" alt="Beans">
+            <h3>Tomato  1Kg</h3>
+            <p>Rs: 100.00</p>
+            <input type="button" value="Add to cart">
+        </div>  
+        <div class="box1">
+            <img src="/home/sugesh/Pictures/download (1).jpeg" height="220px" width="220px" alt="Beans">
+            <h3>Fresh Carrot 1Kg</h3>
+            <p>Rs: 79.00</p>
+            <input type="button" value="Add to cart">
+        </div>  <br>
+    </div>
+    <div class="contain">
+        <div class="box1">
+            <img src="/home/sugesh/Downloads/download (1).jpeg" height="220px" width="320px" alt="Potato">
+            <h3>Potato 1kg</h3>
+            <p>Rs: 84.00</p>
+            <input type="button" value="Add to cart">
+        </div>  
+        <div class="box1">
+            <img src="/home/sugesh/Downloads/images (8).jpeg" height="220px" width="220px" alt="Onion">
+            <h3>Onion 1kg</h3>
+            <p>Rs: 98.00</p>
+            <input type="button" value="Add to cart" >
+        </div>  
+        <div class="box1">
+            <img src="/home/sugesh/Pictures/picture-lovely-woman-red-dress-with-sale-sign_380164-25769.avif" height="220px" width="200px" alt="">
+            <p><h3>Super Saver</h3>
+            <input type="button" value="More Products!" >
+        </div> 
+    </div> 
+    <div class="hello">
+       <button onclick="togglecontent()"> More Result </button>
+     
+          
+    </div><br>
+
+
+</center>
+<center>        
+    <footer class="ipl">
+        <div class="mm"><h2>Organic Mart</h2></div>
+        <p><h4>We are dealing in various organic products as well as fresh home baked dishes which are required in daily life.</h4></p>
+        <p><h4> produced is 100% Organic with no preservatives added.</h4></p>
+        <p><h4>Also we do not accept return order !</h4></p>
+        </p>
+        
+    
+        <h1></h1>
+        <h2></h2>
+        <div class="mm"><h2>Vist our store</h2></div>
+        <h3>Near police station opposite, karimangalam</h3>
+        <h3>Dharmapuri-635205,Tamilnadu.</h3>
+        
+        <div class="mm">
+        <h1></h1>
+        <h3>Terms & Condition</h3>
+        <h3>Privacy Policy</h3>
+        <h3>Shipping & Payment Policy</h3></div>
+    </footer>
+
+
+</center>
+   
+</body>
+<script>
+    let currentIndex = 0;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+
+function showNextSlide(){
+
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateSlidePosition();
+}
+
+function updateSlidePosition() {
+    const slidesContainer = document.querySelector('.slides');
+    const offset = -currentIndex * 100;
+    slidesContainer.style.transform = `translateX(${offset}%)`;
+}
+
+setInterval(showNextSlide, 3000); // Change slide every 3 seconds
+</script>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
